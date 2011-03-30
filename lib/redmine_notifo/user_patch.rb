@@ -17,12 +17,12 @@ module RedmineNotifo
       end
 
     end
-    
+
     module ClassMethods
     end
-    
+
     module InstanceMethods
-    end    
+    end
   end
 end
 
