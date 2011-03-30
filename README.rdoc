@@ -2,7 +2,7 @@
 
 Plugin which integrates Notifo push notifications with Redmine. When an issue is created or updated you will receive push notifications.
 
-=== Prequesits
+=== Prerequisite
 
 A Notifo account is required. Visit http://notifo.com to get one.
 
@@ -10,7 +10,7 @@ This plugin depends on httparty. To install run
 
     $ gem install httparty
 
-=== Instalation
+=== Installation
 
 Download the sources and put them to your vendor/plugins folder.
 
