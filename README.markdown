@@ -1,8 +1,9 @@
-== Redmine Notifo
+Redmine Notifo
+==============
 
 Plugin which integrates Notifo push notifications with Redmine. When an issue is created or updated you will receive push notifications.
 
-=== Prequesits
+## Prequesits
 
 A Notifo account is required. Visit http://notifo.com to get one.
 
@@ -10,7 +11,7 @@ This plugin depends on httparty. To install run
 
     $ gem install httparty
 
-=== Instalation
+## Instalation
 
 Download the sources and put them to your vendor/plugins folder.
 
@@ -21,21 +22,21 @@ Migrate database.
 
     $ rake db:migrate:plugins
 
-Users should now be able to configure their Notifo credentials in their account settings. All issue changes which provoke email notifications now also create Notifo notifications.
+Users should now be able to configure their Notifo credentials in their account settings. All changes which provoke email notifications now also create Notifo notifications.
 
-=== Translations
+## Translations
 
-* en by Daniel Lehmann
-* de by Daniel Lehmann
+- en by Daniel Lehmann
+- de by Daniel Lehmann
 
-=== ToDO
+## ToDO
 
-* Error Handling
-* Async / Background calls to notifo
-* Support for notifications on wiki changes etc.
+- Error Handling
+- Async / Background calls to notifo
+- Support for notifications on wiki changes etc.
 
-=== Changelog
+## Changelog
 
-==== 0.1.0
+### 0.1.0
 
-* Initial release
+- Initial release
