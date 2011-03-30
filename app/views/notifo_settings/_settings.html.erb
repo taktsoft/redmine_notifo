@@ -1,0 +1,11 @@
+</div>
+<h3><%=l(:label_notifo_settings)%></h3>
+<div class="box tabular">
+  <% @user.build_notifo_account unless @user.notifo_account -%>
+  <% form.fields_for :notifo_account do |notifo_form| -%>
+    <p><%= notifo_form.check_box :active, :onclick => "$('notifo_settings').toggle();" -%></p>
+    <div id="notifo_settings" <%= "style=\"display: none;\"" unless @user.notifo_account.active -%>>
+      <p><%= notifo_form.text_field :username, :label => l(:label_notifo_username) -%></p>
+      <p><%= notifo_form.text_field :api_key, :label => l(:label_notifo_api_key) -%></p>
+    </div>
+  <% end -%>
