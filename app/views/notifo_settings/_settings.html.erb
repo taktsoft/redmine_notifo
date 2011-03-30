@@ -1,6 +1,7 @@
 </div>
 <h3><%=l(:label_notifo_settings)%></h3>
 <div class="box tabular">
+  <p><%=l(:label_notifo_description) -%> <%= link_to "notifo.com", "http://notifo.com" -%></p>
   <% @user.build_notifo_account unless @user.notifo_account -%>
   <% form.fields_for :notifo_account do |notifo_form| -%>
     <p><%= notifo_form.check_box :active, :onclick => "$('notifo_settings').toggle();" -%></p>

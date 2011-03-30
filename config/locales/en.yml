@@ -1,3 +1,6 @@
 # English strings go here for Rails i18n
 en:
-  my_label: "My label"
+  label_notifo_settings: "Notifo Notifications"
+  label_notifo_username: "Username"
+  label_notifo_api_key: "Api-Key"
+  label_notifo_description: "Notifo is a free and powerful way to receive super-fast notifications of the things you care about, straight to your mobile phones and computers. Interested? Visit "

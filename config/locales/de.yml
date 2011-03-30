@@ -1,0 +1,6 @@
+# English strings go here for Rails i18n
+de:
+  label_notifo_settings: "Notifo Benachrichtigungen"
+  label_notifo_username: "Username"
+  label_notifo_api_key: "Api-Key"
+  label_notifo_description: "Notifo ermöglicht den kostenlosen Empfang von Push-Nachrichten auf Mobilen Endgeräten und Computern. Mehr Informationen unter "
