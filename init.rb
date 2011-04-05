@@ -31,7 +31,7 @@ Redmine::Plugin.register :redmine_notifo do
   author 'Daniel Lehmann'
   description 'Send notifo updates'
   version '0.1.0'
-  url 'http://githubm.com/taktsoft/'
+  url 'http://github.com/taktsoft/redmine_notifo'
   author_url 'http://www.taktsoft.com'
 
   requires_redmine :version_or_higher => '1.0.0'
