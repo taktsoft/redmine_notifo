@@ -19,7 +19,7 @@ Download the sources and put them to your vendor/plugins folder.
 
 Migrate database.
 
-    $ rake db:migrate:plugins
+    $ rake db:migrate_plugins RAILS_ENV:production
 
 Users should now be able to configure their Notifo credentials in their account settings. All issue changes which provoke email notifications now also create Notifo notifications.
 
